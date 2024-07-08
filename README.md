@@ -6,17 +6,23 @@
 
 The tool requires Python 3.6 or newer.
 
-## Usage
+## Get the tool
 
 Clone the repository:
 ```
 git clone https://github.com/virtuozzo/vhs9-hw-compat.git
 ```
 
+Or download the code as a ZIP file.
+
+## Usage
+
 Run the tool:
 ```
 python3 vhs9-hw-compat/check-hw-compat.py
 ```
+
+Empty output means the tool **did not** detect incompatible hardware.
 
 ## Optional arguments:
 
